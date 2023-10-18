@@ -1,0 +1,5 @@
+price = input('Enter price: ')
+discount = input('Enter discount: ')
+discSum = float(price)/100*float(discount)
+priceDisc = round(float(price) - discSum, 2)
+print(f'Price with discount: {priceDisc}\nReduction: {round(float(price) - priceDisc, 2)}')
